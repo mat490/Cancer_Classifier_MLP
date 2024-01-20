@@ -25,10 +25,10 @@ model.add(Dense(units=1, activation='sigmoid'))
 # Compile the model
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-# Entrenamos el modelo
-entrenar_modelo()
+# Train the model
+train_model()
 
-def entrenar_modelo():
+def train_model():
   model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=(X_test, y_test))
   
   # Check accuracy
@@ -40,4 +40,4 @@ def entrenar_modelo():
   
     model.save('model_pretrained_bcc.h5')
   else:
-    entrenar_modelo()
+    train_model()
