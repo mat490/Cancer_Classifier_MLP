@@ -39,7 +39,7 @@ The model is compiled with the Adam optimizer and binary crossentropy loss funct
  ```bash
      cd your-repo
  ```
-**3. 
+**3. Run the program:
  ```bash
      python MLP_Cells.py
  ```
