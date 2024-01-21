@@ -19,11 +19,9 @@ You can install these packages using the following:
 The program uses the Breast Cancer Wisconsin (Diagnostic) dataset, which is loaded from the 'Cancer_Data.csv' file. The dataset contains various features related to cell nuclei and a target variable indicating the diagnosis as malignant (M) or benign (B).
 The dataset was extracted from the following publication on Kaggle: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
 
-### License MIT
+### License of dataset
 Released under MIT License
-
 Copyright (c) 2013 Mark Otto.
-
 Copyright (c) 2017 Andrew Fong.
 
 
