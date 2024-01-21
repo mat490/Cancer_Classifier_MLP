@@ -16,7 +16,7 @@ You can install these packages using the following:
  ```
 
 ## About dataset 
-The program uses the Breast Cancer dataset, which is loaded from the 'Cancer_Data.csv' file. The dataset contains various features related to cell nuclei and a target variable indicating the diagnosis as malignant (M) or benign (B).
+The program uses a Breast Cancer Cells dataset, which is loaded from the 'Cancer_Data.csv' file. The dataset contains various features related to cell nuclei and a target variable indicating the diagnosis as malignant (M) or benign (B).
 The dataset was extracted from the following publication on Kaggle: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
 
 ### License of dataset
