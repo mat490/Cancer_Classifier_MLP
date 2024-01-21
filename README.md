@@ -18,6 +18,7 @@ You can install these packages using the following:
 ## About dataset 
 The program uses the Breast Cancer Wisconsin (Diagnostic) dataset, which is loaded from the 'Cancer_Data.csv' file. The dataset contains various features related to cell nuclei and a target variable indicating the diagnosis as malignant (M) or benign (B).
 The dataset was extracted from the following publication on Kaggle: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
+** License MIT **
 
 ## Data Preprocessing
 The 'diagnosis' column in the dataset is converted to numeric values, where 'M' is replaced with 1 and 'B' is replaced with 0. The data is then split into input features (X) and target labels (y). Further, the dataset is divided into training and testing sets using the **train_test_split** function.
