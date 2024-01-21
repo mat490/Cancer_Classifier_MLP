@@ -20,9 +20,9 @@ The program uses the Breast Cancer Wisconsin (Diagnostic) dataset, which is load
 The dataset was extracted from the following publication on Kaggle: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
 
 ### License of dataset
-Released under MIT License
-Copyright (c) 2013 Mark Otto.
-Copyright (c) 2017 Andrew Fong.
++ Released under MIT License
++ Copyright (c) 2013 Mark Otto.
++ Copyright (c) 2017 Andrew Fong.
 
 
 ## Data Preprocessing
