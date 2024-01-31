@@ -19,7 +19,7 @@ X_train, X_test, y_train, y_test = train_test_split(x_df_cc, y_df_cc, test_size=
 
 # Create the model
 model = Sequential()
-model.add(Dense(units= 12, activation='relu', input_dim=30))  # Ajusta input_dim al número de características
+model.add(Dense(units= 12, activation='relu', input_dim=30)) 
 model.add(Dense(units=1, activation='sigmoid'))
 
 # Compile the model
